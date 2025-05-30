@@ -1,0 +1,40 @@
+@media screen and (min-width: 500px){
+body{
+    background-image: linear-gradient(aquamarine, cyan);
+}
+h1, h2, h3{
+    color: red;
+}
+H4{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: 88px;
+    top: 20px;
+}
+img{
+    max-width: 400px;
+    max-height: 400px;
+}
+}
+@media screen and (max-width: 500px){
+    body{
+        background-image: linear-gradient(aquamarine, cyan);
+        height: 1100px;
+    }
+    h1, h2, h3{
+        color: red;
+    }
+    H4{
+        width: 300px;
+        height: 200px;
+    }
+    h4 img{
+        position: relative;
+        top: 20px;
+    }
+    img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+}

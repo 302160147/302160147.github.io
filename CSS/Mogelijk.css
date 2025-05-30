@@ -1,0 +1,207 @@
+@media screen and (min-width: 500px){
+body{
+    background-image: linear-gradient( rgb(125, 247, 227), rgb(13, 83, 83));
+}
+
+.Projecten{
+    width: 700px;
+    height: 800px;
+    display: grid;
+    gap: 10px;
+    border: 1px solid black;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-template-areas: 
+    "one two three"
+    "four five six"
+    "seven eight nine"
+}
+header div{
+    font-size: 25px;
+    color: darkred;
+}
+
+.One{
+    grid-area: one;
+    content: url("../IMG/hoger\ lager.png");
+}
+.Two{
+    grid-area: two;
+    content: url("../IMG/card\ flip.png");
+}
+.Three{
+    grid-area: three;
+}
+.Four{
+    grid-area: four;
+}
+.Five{
+    grid-area: five;
+}
+.Six{
+    grid-area: six;
+}
+.Seven{
+    grid-area: seven;
+}
+.Eight{
+    grid-area: eight;
+}
+.Nine{
+    grid-area: nine;
+}
+
+footer img{
+    position: absolute;
+    right: 220px;
+    top: 550px;
+    width: 600px;
+    height: 600px;
+}
+footer p{
+    position: absolute;
+    right: 400px;
+    top: 10px;
+}
+}
+@media screen and (max-width: 1600px) and (min-width: 701px){
+    body{
+        background-image: linear-gradient( rgb(125, 247, 227), rgb(13, 83, 83));
+        height: 2000px;
+    }
+    
+    .Projecten{
+        width: 800px;
+        height: 800px;
+        display: grid;
+        gap: 10px;
+        border: 1px solid black;
+        grid-template-columns: 2fr 2fr;
+        grid-template-areas: 
+        "one two"
+        "three four"
+        "five six"
+        "seven eight"
+        "nine nine"
+    }
+    header div{
+        font-size: 25px;
+        color: darkred;
+    }
+    
+    .One{
+        grid-area: one;
+        content: url("../IMG/hoger\ lager.png");
+    }
+    .Two{
+        grid-area: two;
+        content: url("../IMG/card\ flip.png");
+    }
+    .Three{
+        grid-area: three;
+    }
+    .Four{
+        grid-area: four;
+    }
+    .Five{
+        grid-area: five;
+    }
+    .Six{
+        grid-area: six;
+    }
+    .Seven{
+        grid-area: seven;
+    }
+    .Eight{
+        grid-area: eight;
+    }
+    .Nine{
+        grid-area: nine;
+    }
+    
+    footer img{
+        position: absolute;
+        right: 50px;
+        top: 100px;
+        width: 500px;
+        height: 600px;
+    }
+    footer p{
+        position: absolute;
+        right: 100px;
+        top: 55px;
+        width: 300px;
+}
+}
+@media screen and (max-width: 700px){
+    body{
+        background-image: linear-gradient( rgb(125, 247, 227), rgb(13, 83, 83));
+        height: 2300px;
+    }
+    
+    #Projecten{
+        width: 800px;
+        height: 800px;
+        display: grid;
+        gap: 10px;
+        border: 1px solid black;
+        grid-template-columns: 2fr;
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four"
+        "five" 
+        "six"
+        "seven" 
+        "eight"
+        "nine"
+    }
+    header div{
+        font-size: 25px;
+        color: darkred;
+    }
+    
+    .One{
+        grid-area: one;
+        content: url("../IMG/hoger\ lager.png");
+    }
+    .Two{
+        grid-area: two;
+        content: url("../IMG/card\ flip.png");
+    }
+    .Three{
+        grid-area: three;
+    }
+    .Four{
+        grid-area: four;
+    }
+    .Five{
+        grid-area: five;
+    }
+    .Six{
+        grid-area: six;
+    }
+    .Seven{
+        grid-area: seven;
+    }
+    .Eight{
+        grid-area: eight;
+    }
+    .Nine{
+        grid-area: nine;
+    }
+    
+    footer img{
+        position: absolute;
+        right: 50px;
+        top: 1700px;
+        width: 400px;
+        height: 600px;
+    }
+    footer p{
+        position: absolute;
+        right: 100px;
+        top: 1650px;
+        width: 300px;
+}
+}

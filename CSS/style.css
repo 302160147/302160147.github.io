@@ -1,0 +1,97 @@
+body {
+    background-image: linear-gradient(aqua, blue);
+}
+
+#titel {
+    color: crimson;
+    text-align: center;
+    font-size: 100px;
+    grid-area: titel;
+}
+
+
+
+.vakken{
+    left: 10%;
+    width: 90%;
+    height: 50%;
+    display: grid;
+    gap: 10px;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titel titel titel"
+    "tt tt tt"
+    "info mg cg"
+}
+
+.info {
+    width: 300px;
+    height: 300px;
+    /* left: 100px;
+    top: 310px; */
+   
+    font-size: 35px;
+    border: 1px solid black;
+    grid-area: info;
+}
+
+.mogelijk {
+    width: 300px;
+    height: 300px;
+    /* left: 750px;
+    top: 127px; */
+   
+    font-size: 30px;
+    border: 1px solid black;
+    grid-area: mg;
+}
+
+.gegevens {
+    width: 300px;
+    height: 300px;
+    /* right: -1500px;
+    top: -215px; */
+    font-size: 38px;
+    border: 1px solid black;
+    grid-area: cg;
+}
+a {
+    color: rgb(182, 76, 243);
+}
+
+a:hover {
+    color: aqua;
+}
+
+.titeltekst {
+    font-size: 40px;
+    text-align: center;
+    color: crimson;
+    grid-area: tt;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: linear-gradient(aqua, blue);
+    }
+    .vakken{
+        left: 17%;
+        width: 40%;
+        height: 110%;
+        display: grid;
+        position: relative;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "titel titel"
+        "tt tt"
+        "info info"
+        "mg mg" 
+        "cg cg"
+    
+    }
+
+}
