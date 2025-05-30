@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(aqua, blue);
 }
 
-#titel {
+.titel {
     color: crimson;
     text-align: center;
     font-size: 100px;
@@ -12,7 +12,7 @@ body {
 
 
 .vakken{
-    left: 10%;
+    /* left: 10%;
     width: 90%;
     height: 50%;
     display: grid;
@@ -22,7 +22,7 @@ body {
     grid-template-areas: 
     "titel titel titel"
     "tt tt tt"
-    "info mg cg"
+    "info mg cg" */
 }
 
 .info {
@@ -78,7 +78,7 @@ a:hover {
         background-image: linear-gradient(aqua, blue);
     }
     .vakken{
-        left: 17%;
+        /* left: 17%;
         width: 40%;
         height: 110%;
         display: grid;
@@ -90,7 +90,7 @@ a:hover {
         "tt tt"
         "info info"
         "mg mg" 
-        "cg cg"
+        "cg cg" */
     
     }
 
