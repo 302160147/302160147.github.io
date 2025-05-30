@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoger Lager Stamina</title>
+    <link rel="stylesheet" href="css/stamina.css">
+</head>
+
+<body>
+<main>
+    <a href="index.html">Normal Mode</a>
+    <div class="container">
+        <header class="text-center">
+            <h1>Hoger Lager Stamina</h1>
+        </header>
+        <main>
+            <div class="headings">
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h3>Computer</h3>
+                </div>
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h3>Speler</h3>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="credits">
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h4> <p>Credits: <span class="computer-credits" id="computer-score"></span></p></h4>
+                </div>
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h4>Credits: <span class="player-credits" id="player-score"></span></h4>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="dices">
+                <div>&nbsp;</div>
+                <div class="dices-computer-player">
+                    <div class="dice text-center computer-dice-one">&#9856;</div>
+                    <div class="dice text-center computer-dice-two">&#9857;</div>
+                </div>
+                <div>&nbsp;</div>
+                <div class="dices-player">
+                    <div class="dice text-center player-dice-one">&#9858;</div>
+                    <div class="dice text-center player-dice-two">&#9859;</div>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="message text-center">
+                <div>&nbsp;</div>
+                <div class="message-box">
+                    <p>Druk op Go om het spel te starten.</p>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="controls">
+                <div>&nbsp;</div>
+                <button class="Rules" id="Regels" onclick="ShowRules()">Hoe werkt dit?</button>
+                <div class="text-center player-dice-button-container">
+                    <button class="dice-button" id="button1" onclick="TrowDiceOne()">Gooi dobbelsteen</button>
+                    <button class="dice-button" id="button2" onclick="TrowDiceTwo()">Gooi dobbelsteen 2</button>
+                </div>
+                <div class="text-center higher-button-container">
+                    <button class="higher-button" id="higher-button" onclick="UserChoseHigher()"> higher</button>
+                </div>
+                <div class="text-center lower-button-container">
+                    <button class="lower-button" id="lower-button" onclick="UserChoseLower()">Lager</button>
+                </div>
+                <div class="text-center go-button-container">
+                    <button class="go-button" id="Start" onclick="GameStarts()">GO</button>
+                    <div class="text-center go-button-container">
+                        <button class="go-button" id="roll-again" onclick="Rollagain()">Roll-Again</button>
+                    <div class="text-center player-dice-button-container">
+                        <button class="dice-button" id="button3" onclick="TrowDiceThree()">Gooi dobbelsteen3</button>
+                        <button class="dice-button" id="button4" onclick="TrowDiceVoor()">Gooi dobbelsteen4</button>
+                        <div class="text-center go-button-container">
+                            <button class="go-button" id="Start" onclick="ChangeName()">Set or Change Name</button>
+                    </div>
+                </div>
+            </main>
+                <footer>
+                <H1>Round Winner:</H1>
+                <p id="Winner"></p>
+                <H2>Scoreboard</H2>
+                <p id="Player-Name"></p> <p id="High-Score"></p>
+                <H3>Last high score</H3>
+                <p id="Last-Player-Name"></p>
+                <p  id="Lastscore"></p></p>
+                
+            </footer>
+                <div>&nbsp;</div>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="js/Staminel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoger Lager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<main>
+    <!--<a href="Stamina.html">Stamina Mode</a>-->
+    <p></p>
+    <button class="Rules" id="Regels" onclick="ShowRules()">Hoe werkt dit?</button>
+    <a href="../mogelijk.html">Terug</a>
+    <div class="container">
+        <header class="text-center">
+            <h1>Hoger Lager</h1>
+        </header>
+        <main>
+            <div class="headings">
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h3>Computer</h3>
+                </div>
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h3>Speler</h3>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="credits">
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h4> <p>Credits: <span class="computer-credits" id="computer-score"></span></p></h4>
+                </div>
+                <div>&nbsp;</div>
+                <div class="text-center">
+                    <h4>Credits: <span class="player-credits" id="player-score"></span></h4>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="dices">
+                <div>&nbsp;</div>
+                <div class="dices-computer-player">
+                    <div class="dice text-center computer-dice-one">&#9856;</div>
+                    <div class="dice text-center computer-dice-two">&#9857;</div>
+                </div>
+                <div>&nbsp;</div>
+                <div class="dices-player">
+                    <div class="dice text-center player-dice-one">&#9858;</div>
+                    <div class="dice text-center player-dice-two">&#9859;</div>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="message text-center">
+                <div>&nbsp;</div>
+                <div class="message-box">
+                    <p>Druk op Go om het spel te starten.</p>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="controls">
+                <div>&nbsp;</div>
+                <div class="text-center player-dice-button-container">
+                    <p class="dice-button" id="button1">Dobbelsteen 1</p> 
+                    <article>.</article>  
+                    <p class="dice-button" id="button2">Dobbelsteen 2</p>
+                    <button class="go-button" id="Start" onclick="GameStarts()">GO</button>
+                </div>
+                <div class="text-center higher-button-container">
+                    <button class="higher-button" id="higher-button" onclick="UserChoseHigher()">Hoger</button>
+                </div>
+                <div class="text-center lower-button-container">
+                    <button class="lower-button" id="lower-button" onclick="UserChoseLower()">Lager</button>
+                    
+                </div>
+                <div class="text-center go-button-container">
+                    <div class="text-center go-button-container">
+                        <button class="go-button" id="roll-again" onclick="Rollagain()">Gooi weer</button>
+                    <div class="text-center player-dice-button-container">
+                        <button class="dice-button" id="button3" onclick="TrowDiceThree()">Gooi dobbelsteen3</button>
+                        <button class="dice-button" id="button4" onclick="TrowDicefour()">Gooi dobbelsteen4</button>
+                        <button class="sound-button" id="sound" onclick="pauseAudio()">stop muziek</button>
+                    </div>
+                </div>
+            </main>
+                <footer>
+                <H1>Ronde Winnaar:</H1>
+                <p id="Winner"></p>
+            </footer>
+                <div>&nbsp;</div>
+            </div>
+        </main>
+    </div>
+
+
+    <audio id="myAudio">
+    <source src="sound/password-infinity-123276.mp3" type="audio/mpeg" onclick="PlaySound()">
+    </audio>
+
+    <!-- ALTIJD ONDERAAN LATEN STAAN -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

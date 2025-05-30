@@ -1,0 +1,78 @@
+.dices{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+.headings{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+.credits{
+    column-count: 5;
+    column-fill: balance;
+}
+.text-center{
+    text-align: center;
+}
+.dices-computer-player{
+    column-count: 2;
+}
+.dices-player{
+    column-count: 2;
+}
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+.message-box{
+    border: 1px solid black;
+}
+.controls{
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+}
+.dice{
+    font-size: 64pt;
+}
+
+button{
+    width: 100%;
+    color: goldenrod
+}
+header{
+    background-color: aqua;
+}
+main{
+    background-color: cyan;
+}
+#Regels{
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+    text-align: center;
+    width: 100px;
+    color: goldenrod
+}
+@media screen and (max-width:716px) {
+    body {
+            color: aquamarine;
+    }
+}
+article{
+    color: aqua;
+}
+#button1{
+    font-size: 22px;
+}
+#button2{
+    font-size: 22px;
+}
+body{
+    background-color: aqua;
+}
+audio{
+    color: aqua;
+    width: 10%;
+}
