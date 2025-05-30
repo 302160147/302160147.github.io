@@ -9,22 +9,6 @@ body {
     grid-area: titel;
 }
 
-
-
-.vakken{
-    /* left: 10%;
-    width: 90%;
-    height: 50%;
-    display: grid;
-    gap: 10px;
-    position: relative;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "titel titel titel"
-    "tt tt tt"
-    "info mg cg" */
-}
-
 .info {
     width: 300px;
     height: 300px;
@@ -76,22 +60,6 @@ a:hover {
 @media screen and (max-width: 500px) {
     body {
         background-image: linear-gradient(aqua, blue);
-    }
-    .vakken{
-        /* left: 17%;
-        width: 40%;
-        height: 110%;
-        display: grid;
-        position: relative;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        "titel titel"
-        "tt tt"
-        "info info"
-        "mg mg" 
-        "cg cg" */
-    
     }
 
 }
