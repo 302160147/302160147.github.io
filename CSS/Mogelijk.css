@@ -12,12 +12,7 @@
         gap: 10px;
         border: 1px solid black;
         grid-template-columns: 2fr 2fr;
-        grid-template-areas: 
-        "one two"
-        "three four"
-        "five six"
-        "seven eight"
-        "nine nine"
+
     }
     header div{
         font-size: 25px;
@@ -25,51 +20,28 @@
     }
     
     .One{
-        grid-area: one;
         content: url("../IMG/hoger\ lager.png");
     }
     .Two{
-        grid-area: two;
         content: url("../IMG/card\ flip.png");
     }
     .Three{
-        grid-area: three;
         content: url("../IMG/ReviewYourExperience.png");
         max-width: 500px;
         max-height: 500px;
     }
     .Four{
-        grid-area: four;
     }
     .Five{
-        grid-area: five;
     }
     .Six{
-        grid-area: six;
     }
     .Seven{
-        grid-area: seven;
     }
     .Eight{
-        grid-area: eight;
     }
     .Nine{
-        grid-area: nine;
     }
-    
-    footer img{
-        position: absolute;
-        right: 50px;
-        top: 100px;
-        width: 500px;
-        height: 600px;
-    }
-    footer p{
-        position: absolute;
-        right: 100px;
-        top: 55px;
-        width: 300px;
-}
 }
 @media screen and (max-width: 700px){
     body{
@@ -83,17 +55,6 @@
         display: grid;
         gap: 10px;
         border: 1px solid black;
-        grid-template-columns: 2fr;
-        grid-template-areas: 
-        "one"
-        "two"
-        "three"
-        "four"
-        "five" 
-        "six"
-        "seven" 
-        "eight"
-        "nine"
     }
     header div{
         font-size: 25px;
@@ -101,36 +62,27 @@
     }
     
     .One{
-        grid-area: one;
         content: url("../IMG/hoger\ lager.png");
     }
     .Two{
-        grid-area: two;
-        content: url("../IMG/card\ flip.png");
+       content: url("../IMG/card\ flip.png");
     }
     .Three{
-        grid-area: three;
         content: url("../IMG/ReviewYourExperience.png");
         max-width:  300px;
         max-height: 400px;
     }
     .Four{
-        grid-area: four;
     }
     .Five{
-        grid-area: five;
     }
     .Six{
-        grid-area: six;
     }
     .Seven{
-        grid-area: seven;
     }
     .Eight{
-        grid-area: eight;
     }
     .Nine{
-        grid-area: nine;
     }
     
     footer img{
