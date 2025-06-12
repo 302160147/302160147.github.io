@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1600px) and (min-width: 701px){
+@media screen and (max-width: 2400px) and (min-width: 701px){
     body{
         background-image: linear-gradient( rgb(125, 247, 227), rgb(13, 83, 83));
         height: 1500px;
@@ -34,6 +34,9 @@
     }
     .Three{
         grid-area: three;
+        content: url("../IMG/ReviewYourExperience.png");
+        max-width: 500px;
+        max-height: 500px;
     }
     .Four{
         grid-area: four;
@@ -107,6 +110,9 @@
     }
     .Three{
         grid-area: three;
+        content: url("../IMG/ReviewYourExperience.png");
+        max-width:  300px;
+        max-height: 400px;
     }
     .Four{
         grid-area: four;
