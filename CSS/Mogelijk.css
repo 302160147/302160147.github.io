@@ -33,6 +33,9 @@
     .Four{
     }
     .Five{
+         content: url("../IMG/SDG_Dashboard.png");
+        max-width: 500px;
+        max-height: 500px;
     }
     .Six{
     }
